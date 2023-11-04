@@ -1,0 +1,12 @@
+<svelte:head>
+	<title>My First Svelte Kit App</title>
+</svelte:head>
+
+<nav>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/users">Users</a></li>
+	</ul>
+</nav>
+
+<slot />
